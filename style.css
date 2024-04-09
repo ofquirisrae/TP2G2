@@ -1,0 +1,106 @@
+/* Padding blanc */
+.white-padding {
+    padding: 20px; /* ou la valeur que vous souhaitez */
+    background-color: white;
+}
+
+/* Padding gris */
+.gray-padding {
+    padding: 30px; /* ou la valeur que vous souhaitez */
+    background-color: #D3D3D3; /* ou la couleur grise de votre choix */
+}
+
+/* Padding gris */
+.yellow-padding {
+    padding: 30px; /* ou la valeur que vous souhaitez */
+    background-color: #fcfcea;  /* ou la couleur grise de votre choix */
+}
+
+body {
+    font-family:Arial, sans-serif ;
+    margin: 0px;
+    padding:20px ;
+     border:2px solid red;
+    background-color: rgb(0, 0, 0); /* Couleur de fond du texte */
+}
+
+header {
+    padding: 20px;
+    text-align:center ;
+}
+
+main {
+    padding: 20px;
+    font-family: 'Calibri', sans-serif ;
+    font-weight:bold ;
+    font-size: 18px;
+}
+
+.separator {
+    border: 2px solid #b71236; /* Ligne rouge en gras */
+    width: 1000px;
+    margin:0px; /* Espacement autour de la ligne */
+}
+
+.section {
+    padding: 10px;
+    color: #000000;  /* Ajoutez d'autres styles au besoin */
+}
+
+footer {
+    background-color:white ;
+    border-top: 5px solid #c7ccbd; /* Bordures du pied de page */
+    color:#fff ;
+    text-align: right;
+    padding:10px ;
+    bottom:0px ;
+    width: 99,5%;
+    border-left:50px solid #c7ccbd ;
+    border-right: 50 px solid #c7ccbd;
+}
+
+.footer-content {
+    max-width: 800px ; /* Ajustez la largeur selon vos besoins */
+    margin: auto;
+    color:black ;
+    background-color:white ;
+}
+
+footer a {
+    text-decoration: underline; /* Soulignez le lien */
+    color: #D3D3D3; /* Couleur du texte du lien */
+}
+
+.centered-image {
+    
+    max-width: 75% ; /* Pour que l'image ne dépasse pas la largeur du cadre */
+    
+}
+
+.centered-square {
+    text-align:center;
+    padding: 0px;
+    background-color: white; /* Couleur de fond blanche */
+    border: 2px solid #000; /* Bordure solide noire */
+    margin:0 auto ;
+    width: 40%; /* Largeur  */
+    
+}
+
+.gray-underline {
+    color: #888; /* Couleur grise */
+    text-decoration: underline; /* Soulignez le lien */
+}
+
+.literature-poem {
+    margin:10 px;
+    padding:10px ; /* Ajout d'une marge interne de 10px pour plus d'espace à l'intérieur du div */
+    width: 30%;
+    box-sizing:border-box ; /* Inclure la marge et le rembourrage dans la largeur du div */
+}
+
+.literature-poem p {
+    margin: 0;
+    line-height: 1.5;
+}
+
